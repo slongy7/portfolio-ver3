@@ -1,0 +1,248 @@
+
+:root {
+    --cbj-color: #002654;
+    --crew-color: #fef200;   
+    --reds-color: #c6011f;  
+    --ice-blue: #99d9d9;
+    --boundless-blue: #355464;
+    --shadow-blue: #68a2b9;
+    --la-grey: #a2aaad;
+    --buckeye-grey: #666;
+    --mancity-blue: #6cabdd;
+
+}
+
+/* GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport */
+
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.box {
+    position: relative;
+    left: 375px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+
+}
+
+
+.Title {
+    color: var(--cbj-color);
+    background-color: var(--la-grey);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 130px;
+    height: 200px;
+    text-align: right;
+    bottom: 0;
+    
+}
+
+#selfie {
+    position: relative;
+    width: 250px;
+    height: 350px;
+    
+}
+
+#forest {
+    position: absolute;
+    left: auto;
+    opacity: 0.4;
+    height: 100%;
+    width: 100%;
+    size:unset;
+    
+    
+}
+
+.hyperlinks {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    bottom: 0
+    
+}
+
+li {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: var(--boundless-blue);
+    text-align: center;
+    padding: 16px;
+}
+
+/* .portfolio,
+.portfolio1,
+.portfolio2 {
+    text-align: center;
+    display: flex;
+    flex-direction: bottom;
+
+
+} */
+
+.portfolio,
+.portfolio1,
+.portfolio2 {
+
+    
+    align-items: left;
+    right: 0px;
+    background-color: var(--cbj-color);
+    width: 200px;
+    border: 5px var(--boundless-blue);
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 10px 5px 5px var(--boundless-blue);
+    color: white;
+    font-size: 30px;
+    list-style-type: none;
+    font-weight: bold;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.portfolio:hover,
+.portfolio1:hover,
+.portfolio2:hover {
+    background-color: var(--ice-blue);
+}
+
+.portfolio {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+
+}
+
+.box {
+    /* display: flex;
+    align-items: left; */
+    position: relative;
+    left: 10px;
+
+}
+
+.about,
+.para {
+    
+    display: block;
+    text-align: initial;
+    margin: 10px;
+    
+}
+
+#projects {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.about {
+    text-align:center;
+    font-weight: bolder;
+    font-size: 40px;
+    
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#contact {
+    position: absolute;
+    font-size: 20px;
+    font-family: monospace;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    word-spacing: 50px;
+    bottom: 0;
+    height: 2.5rem;
+    width: 100%;
+
+
+}
+
+/* .resume {
+    margin: 10px;
+    height: 400px;
+    width: 700px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+} */
+
+.website {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+.games {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.applications {
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+
+#contactMe {
+    font-family: monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+#contact,
+#contactMe {
+    position: relative;
+    text-align: center;
+}
+
+
