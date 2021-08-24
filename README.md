@@ -1,15 +1,18 @@
-##Updated Portfolio
+## Updated Portfolio
 
 Link:  https://slongy7.github.io/UpdatedPortfolio/
 
-##Goal
-This project is to update my portfolio which was assigned earlier in the class.  This is to add our first group project, and to update our portfolio with some of the technologies and ideas that we have learned since then.  We are also supposed to highlight some of our other applications that we are proud of completing.
+## Goal
+This project is to update my portfolio which was assigned earlier in the class.  This is to add our second group project, and to update our portfolio with some of the technologies and ideas that we have learned since then.  We are also supposed to highlight some of our other applications that we are proud of completing.
 
-##Screen Shots
+I also updated my resume, Github and LinkedIn account.
+
+## Screen Shots
+
+![59E06205-7B82-45AD-A4A8-C5290E3A6FBF](https://user-images.githubusercontent.com/79759725/130543130-96d1130c-a49b-47a1-90a7-d33301d1936a.png)
 
 
-
-##License
+## License
 
 The MIT License (MIT)
 
